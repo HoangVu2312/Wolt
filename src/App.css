@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #00c2e8;
+  min-height: 100vh;
+  position: absolute;
+  top: 0%;
+  width: 100vw;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.form-container {
+  padding: 10px;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+h2{
+  font-family: 'Pacifico';
+  font-size: 2.5rem !important;
+  font-weight: 550 !important;
+  color: white !important;
+  text-shadow: 4px 4px 0px #0292af;
+}
+
+h4{
+  font-family: 'Pacifico';
+  font-size: 2rem !important;
+  font-weight: 350 !important;
+  text-shadow: 2px 2px 0px #0292af;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}
+
+
+.get-fee-btn {
+  width: 170px;
+  height: 170px;
+  background-image: url("./btnyuhos.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+}
+
+.tooltip-inner {
+  background-color: #343a40; 
+  color: #ffffff;
+  padding: 10px !important;
+  border-radius: 30px 30px 30px 30px!important;
+}
+
+.tooltip-arrow {
+  border-top-color: #343a40;
+}
+
+@media (max-width: 767px) {
+  .h2 {
+    font-size: 2rem !important; 
+  }
+
+  .input-field {
+    width: 100%; 
+
+  }
+
+
+}
+
+
+
